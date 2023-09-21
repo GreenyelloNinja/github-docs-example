@@ -7,7 +7,7 @@ Codeblocks in markdown make it *very easy* for tech peoplel to **share code**. A
 Because it allowes others to copy and paste thier codes to replicate or research issues. 
 
 
-In order to create codeblocks in markdown you need to use backticks
+In order to create codeblocks in markdown you need to use backticks [^1]
 
 ```
 def factorial(n):
@@ -49,12 +49,17 @@ Good engineers use codeblock for both code and errors
 
 > This is a quote
 
+## Copy paste screen shot ##
+
+<img width="340" alt="image" src="https://github.com/GreenyelloNinja/github-docs-example/assets/145626362/d4ea706f-668c-4c40-bbc2-cea6101e791a">
+
+
 ### Step 3 - use task lists
 
 Git hub extends markdown to have a list where you can check off items [<sup>[2]</sup>](#references)
 
-- [] Step 1
-- [] Step 2
+- [x] Step 1
+- [ ] Step 2
 - [x] step 3
 
 []()
@@ -80,6 +85,9 @@ Table
 |🐉|`🔥`|
 
 ```
+## Footnotes
+
+[^1]: here is a footnote 
 
 ## References
 
